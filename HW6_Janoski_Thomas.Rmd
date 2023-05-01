@@ -1,0 +1,25 @@
+```{r}
+matrix1 <- matrix(c(7,2,9,4,12,13),ncol=3,nrow=2)
+matrix2 <- matrix(c(1,2,3,7,8,9,12,13,14,19,20,21),ncol=4,nrow=3)
+matrix1%*%matrix2
+```
+```{r}
+dataframe <- data.frame(
+  id= c(1,2,3,4,5),
+  name= c("Peter","Amy","Ryan","Gary","Michelle"),
+  salary= c(623.30, 515.20, 611.00, 729.00,842.25)
+)
+dataframe
+department <-cbind(dataframe, department = c ("CS", "Management", "Finance", "Custodial", "Sales"))
+department  
+dataframe[c(1,3,5),c(2,3)]
+barplot (dataframe[c(1,4,5),c(3)], names.arg = c("Peter", "Gary", "Michelle"))
+pie (dataframe[c(1,2,5),c(3)], main= "salary range and median", labels <- (c("median", "low", "high")))
+```
+
+
+
+
+
+```
+
